@@ -12,30 +12,40 @@ public typealias PickAndChooseData = [[String]]
 
 
 public protocol PickAndChooseDataSource {
-    var pickAndChooseData: PickAndChooseData { get set }
+    var pickAndChooseData: PickAndChooseData? { get set }
 //    var pickAndChooseDataDefaultValue: String { get set }
     
-    func addItemToDataSource(_ newItem: String)
+    func numberOfComponents(in picker: PickAndChoose) -> Int
+    func pickAndChoose(_ picker: PickAndChoose, numberOfRowsInComponent component: Int) -> Int
+    func pickAndChoose(_ picker: PickAndChoose, addItemToDataSource item: String)
+//    func addItemToDataSource(_ newItem: String)
     
 }
 
 
 public protocol PickAndChooseDelegate {
-    func setDefaultValue(to defaultValue: String)
-    func setSelectedValue(to selectedValue: String)
-    func selectionChanged()
+    func pickAndChoose(_ picker: PickAndChoose, titleForRow row: Int, forCompinent component: Int) -> String?
+    
+//    func setDefaultValue(to defaultValue: String)
+//    func setSelectedValue(to selectedValue: String)
+//    func selectionChanged()
 }
 
 
 @IBDesignable
 public class PickAndChoose: UIView {
+//    let defaultPickerValues = [["Emergency", "Complaint", "Appointment", "Information"]]
+    let defaultSelectedText = "Appointment"
 
+    var currentlySelectedIndex: PickerViewViewController.Index?
+    var currentlySelected: String = "" {
+        didSet {
+            pickerLabel.text = currentlySelected
+        }
+    }
+    
     public var delegate:   PickAndChooseDelegate?
     public var dataSource: PickAndChooseDataSource?
-    
-    // Used for the popup text
-    public var fieldName: String = ""
-    
     
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var pickerLabel: UILabel!
@@ -43,7 +53,6 @@ public class PickAndChoose: UIView {
     
     @IBOutlet weak public var pickerImageViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var pickerImageViewLeadingConstraint: NSLayoutConstraint!
-    
     
     @IBInspectable
     public var myImage: UIImage? {
@@ -61,71 +70,95 @@ public class PickAndChoose: UIView {
     }
     
     
-    
     @objc func viewTapped(_ sender: Any) {
-        print("\nTap!\n")
         
-        let defaultPickerValues = [["Emergency", "Complaint", "Appointment", "Information"]]
-        let defaultSelectedText = "Appointment"
-        
+        let titleText   = "Select \(fieldName)"
+        let messageText = allowsAddingValues ? "or choose \"Create\" to create a new \(fieldName)." : nil
         
         // Show Picker View
-//        let alert = UIAlertController(style: .actionSheet, title: "Select \(fieldName)", message: "or choose \"Create\" to create a new \(fieldName).")
-//        
-//        let pickerViewSelectedValue: PickerViewViewController.Index = (column: 0, row: defaultPickerValues[0].index(of: defaultSelectedText) ?? 0)
-//        
-//        self.placeholderText = defaultSelectedText
-//        
-//        alert.addPickerView(values: defaultPickerValues, initialSelection: pickerViewSelectedValue) { vc, picker, index, values in
-//            self.placeholderText = values[0][index.row]
-//        }
-//        
-//        alert.addAction(title: "OK", style: .default)
-//        
-//        alert.addAction(image: nil, title: "New \(fieldName)", color: nil, style: UIAlertAction.Style.destructive, isEnabled: true) { (action) in
-//            
-//            
-////            let categoryImage = UIImage.fontAwesomeIcon(name: .clipboardList, style: .regular, textColor: .black, size: CGSize(width: 25.0, height: 25.0))
-//            let alert = UIAlertController(style: .alert, title: "New \(self.fieldName)")
-//            let config: TextField.Config = { textField in
-//                textField.becomeFirstResponder()
-//                textField.textColor          = .black
-//                textField.placeholder        = "New \(self.fieldName) Name"
-////                textField.left(image: categoryImage, color: .black)
-//                textField.leftViewPadding    = 12
-//                textField.borderWidth        = 1
-//                textField.cornerRadius       = 8
-//                textField.borderColor        = UIColor.lightGray.withAlphaComponent(0.5)
-//                textField.backgroundColor    = nil
-//                textField.keyboardAppearance = .default
-//                textField.keyboardType       = .default
-//                textField.returnKeyType      = .done
-//                
-//                textField.action { textField in
-//                    
-//                    // This is where we can ADD an item
-//                    if let itemName = textField.text {
-//                        
-//                        print("\n\n")
-//                        print("***************************")
-//                        print(itemName)
-//                        print("***************************")
-//                        print("\n\n")
-//                        
-//                    }
-//                }
-//            }
-//            
-//            alert.addOneTextField(configuration: config)
-//            alert.addAction(title: "OK", style: .cancel)
-//            alert.show()
-//        }
-//        
-//        alert.addAction(title: "Done", style: .cancel)
-//        alert.show()
+        let alert = UIAlertController(style: .actionSheet, title: titleText, message: messageText)
+
+        let theFont = UIFont.systemFont(ofSize: 24.0, weight: .light)
+        alert.set(title: "Select \(fieldName)", font: theFont, color: .black)
+
         
+        if let pickAndChooseData = dataSource?.pickAndChooseData {
+            
+            alert.addPickerView(values: pickAndChooseData, initialSelection: self.currentlySelectedIndex) { (vc, picker, index, values) in
+                print("\n\n")
+                print("++++++++++++++++++++++++++++++++++++++++++++++++")
+                print(vc.debugDescription)
+                print("------")
+                print(picker.debugDescription)
+                print("------")
+                print(index)
+                print("------")
+                print(values)
+                print("++++++++++++++++++++++++++++++++++++++++++++++++")
+                print("\n\n")
+                
+                self.currentlySelectedIndex = index
+                self.currentlySelected = self.delegate?.pickAndChoose(self, titleForRow: index.row, forCompinent: index.column) ?? ""
+            }
+        }
+
+        // If adding new values is allowed.
+        if allowsAddingValues {
+            alert.addAction(image: nil, title: "New \(fieldName)", color: nil, style: UIAlertAction.Style.destructive, isEnabled: true) { (action) in
+                self.addNewValueAction()
+            }
+        }
+        
+        alert.addAction(title: "Done", style: .cancel)
+        alert.show()
     }
     
+    
+    func addNewValueAction() {
+        var valueText: String = ""
+        
+        let alert = UIAlertController(style: .alert, title: "Add New \(self.fieldName)")
+        
+        let config: TextField.Config = { textField in
+            textField.becomeFirstResponder()
+            textField.textColor          = .black
+            textField.placeholder        = "New \(self.fieldName) Name"
+            textField.leftViewPadding    = 12
+            textField.borderWidth        = 1
+            textField.cornerRadius       = 8
+            textField.borderColor        = UIColor.lightGray.withAlphaComponent(0.5)
+            textField.backgroundColor    = nil
+            textField.keyboardAppearance = .default
+            textField.keyboardType       = .default
+            textField.returnKeyType      = .done
+            
+            textField.action { textField in
+                if let itemName = textField.text {
+                    valueText = itemName
+                }
+            }
+        }
+        
+        alert.addOneTextField(configuration: config)
+        
+        alert.addAction(image: nil, title: "OK", color: nil, style: .default, isEnabled: true) { (action) in
+            print(valueText)
+//            self.dataSource?.addItemToDataSource(valueText)
+        }
+        
+        alert.addAction(title: "Cancel", style: .cancel)
+        
+        alert.show()
+    }
+    
+    
+    @IBInspectable
+    public var allowsAddingValues: Bool = false
+    
+    // Used for the title of the Add New value
+    @IBInspectable
+    public var fieldName: String = ""
+
     
     @IBInspectable
     public var bgColor: UIColor? {

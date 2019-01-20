@@ -58,6 +58,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="controlBorderCornerRadius">
                                         <real key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowsAddingValues" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
