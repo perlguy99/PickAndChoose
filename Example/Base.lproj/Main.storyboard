@@ -50,7 +50,7 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Foo"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="labelBorderColor">
-                                        <color key="value" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="labelBorderWidth">
                                         <real key="value" value="1"/>
@@ -59,6 +59,17 @@
                                         <real key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="allowsAddingValues" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="myImage" value="image"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fieldName" value="MyCategory"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="controlBorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="labelBorderCornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>

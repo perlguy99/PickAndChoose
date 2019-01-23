@@ -9,15 +9,17 @@
 import UIKit
 
 public typealias PickAndChooseData = [[String]]
+public typealias PickAndChooseData2 = [String]
 
 
 public protocol PickAndChooseDataSource {
-    var pickAndChooseData: PickAndChooseData? { get set }
+    var pickAndChooseData: PickAndChooseData2? { get set }
 //    var pickAndChooseDataDefaultValue: String { get set }
     
     func numberOfComponents(in picker: PickAndChoose) -> Int
     func pickAndChoose(_ picker: PickAndChoose, numberOfRowsInComponent component: Int) -> Int
     func pickAndChoose(_ picker: PickAndChoose, addItemToDataSource item: String)
+    
 //    func addItemToDataSource(_ newItem: String)
     
 }
@@ -34,13 +36,17 @@ public protocol PickAndChooseDelegate {
 
 @IBDesignable
 public class PickAndChoose: UIView {
-//    let defaultPickerValues = [["Emergency", "Complaint", "Appointment", "Information"]]
     let defaultSelectedText = "Appointment"
 
     var currentlySelectedIndex: PickerViewViewController.Index?
-    var currentlySelected: String = "" {
+    
+    public var currentlySelected: String = "" {
         didSet {
             pickerLabel.text = currentlySelected
+            
+            if let foo = dataSource?.pickAndChooseData?.index(of: currentlySelected) {
+                currentlySelectedIndex = (column: 0, row: foo + 1)
+            }
         }
     }
     
@@ -48,7 +54,8 @@ public class PickAndChoose: UIView {
     public var dataSource: PickAndChooseDataSource?
     
     @IBOutlet weak var containerView: UIView!
-    @IBOutlet weak var pickerLabel: UILabel!
+    
+    @IBOutlet weak var pickerLabel: PaddedLabel!
     @IBOutlet weak var pickerImageView: UIImageView!
     
     @IBOutlet weak public var pickerImageViewHeightConstraint: NSLayoutConstraint!
@@ -70,41 +77,59 @@ public class PickAndChoose: UIView {
     }
     
     
+    // MARK: - Setup The View
+    func setupView() {
+        pickerLabel.leftInset = 8.0
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(viewTapped))
+        tap.numberOfTapsRequired = 1
+        
+        self.containerView.addGestureRecognizer(tap)
+        pickerImageView.clipsToBounds            = true
+        pickerImageViewHeightConstraint.constant = 0
+        
+        pickerImageView.backgroundColor = .clear
+        placeholderText                 = "Placeholder Text"
+    }
+
+    
+    
     @objc func viewTapped(_ sender: Any) {
         
         let titleText   = "Select \(fieldName)"
         let messageText = allowsAddingValues ? "or choose \"Create\" to create a new \(fieldName)." : nil
         
         // Show Picker View
-        let alert = UIAlertController(style: .actionSheet, title: titleText, message: messageText)
-
-        let theFont = UIFont.systemFont(ofSize: 24.0, weight: .light)
-        alert.set(title: "Select \(fieldName)", font: theFont, color: .black)
-
+        let alert       = UIAlertController(style: .actionSheet, title: titleText, message: messageText)
+        let titleFont   = UIFont.systemFont(ofSize: 20.0, weight: .semibold)
+        let messageFont = UIFont.systemFont(ofSize: 16.0, weight: .light)
+        
+        alert.setMessage(font: messageFont, color: .black)
+        alert.setTitle(font: titleFont, color: .black)
         
         if let pickAndChooseData = dataSource?.pickAndChooseData {
             
-            alert.addPickerView(values: pickAndChooseData, initialSelection: self.currentlySelectedIndex) { (vc, picker, index, values) in
-                print("\n\n")
-                print("++++++++++++++++++++++++++++++++++++++++++++++++")
-                print(vc.debugDescription)
-                print("------")
-                print(picker.debugDescription)
-                print("------")
-                print(index)
-                print("------")
-                print(values)
-                print("++++++++++++++++++++++++++++++++++++++++++++++++")
-                print("\n\n")
+            // Adds a blank to the beginning of the data
+            var displayData = pickAndChooseData
+            displayData.insert("", at: 0)
+            
+            alert.addPickerView(values: [displayData], initialSelection: self.currentlySelectedIndex) { (vc, picker, index, values) in
+//                print("\n\n")
+//                print("++++++++++++++++++++++++++++++++++++++++++++++++")
+//                print(index)
+//                print("------")
+//                print(values)
+//                print("++++++++++++++++++++++++++++++++++++++++++++++++")
+//                print("\n\n")
                 
                 self.currentlySelectedIndex = index
-                self.currentlySelected = self.delegate?.pickAndChoose(self, titleForRow: index.row, forCompinent: index.column) ?? ""
+                self.currentlySelected      = self.delegate?.pickAndChoose(self, titleForRow: index.row - 1, forCompinent: index.column) ?? ""
             }
         }
 
         // If adding new values is allowed.
         if allowsAddingValues {
-            alert.addAction(image: nil, title: "New \(fieldName)", color: nil, style: UIAlertAction.Style.destructive, isEnabled: true) { (action) in
+            alert.addAction(image: nil, title: "Create", color: nil, style: UIAlertAction.Style.destructive, isEnabled: true) { (action) in
                 self.addNewValueAction()
             }
         }
@@ -112,6 +137,8 @@ public class PickAndChoose: UIView {
         alert.addAction(title: "Done", style: .cancel)
         alert.show()
     }
+    
+    
     
     
     func addNewValueAction() {
@@ -122,7 +149,7 @@ public class PickAndChoose: UIView {
         let config: TextField.Config = { textField in
             textField.becomeFirstResponder()
             textField.textColor          = .black
-            textField.placeholder        = "New \(self.fieldName) Name"
+            textField.placeholder        = "New \(self.fieldName)"
             textField.leftViewPadding    = 12
             textField.borderWidth        = 1
             textField.cornerRadius       = 8
@@ -142,8 +169,7 @@ public class PickAndChoose: UIView {
         alert.addOneTextField(configuration: config)
         
         alert.addAction(image: nil, title: "OK", color: nil, style: .default, isEnabled: true) { (action) in
-            print(valueText)
-//            self.dataSource?.addItemToDataSource(valueText)
+            self.dataSource?.pickAndChoose(self, addItemToDataSource: valueText)
         }
         
         alert.addAction(title: "Cancel", style: .cancel)
@@ -250,43 +276,11 @@ public class PickAndChoose: UIView {
         set { pickerLabel.layer.cornerRadius = newValue }
     }
     
-
-    
-    func setupView() {
-        
-        let tap = UITapGestureRecognizer(target: self, action: #selector(viewTapped))
-        tap.numberOfTapsRequired = 1
-        self.containerView.addGestureRecognizer(tap)
-        
-//        fontSize = 20.0
-//        fontColor = .green
-//
-//        controlBorderWidth = 1.0
-//        controlBorderColor = .red
-//
-//        imageBorderWidth = 2.0
-//        imageBorderColor = .green
-//
-//        labelBorderWidth = 1.5
-//        labelBorderColor = .brown
-        
-        pickerImageView.clipsToBounds = true
-        pickerImageViewHeightConstraint.constant = 0
-        
-//        pickerImageView.tintColor = .red
-//        containerBackgroundColor = .orange
-//        myImage = UIImage(named: "image")
-        
-        pickerImageView.backgroundColor = .clear
-        placeholderText = "Placeholder Text"
-    }
     
     
     // MARK: - Interface Builder
     override public func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
-        
-//        setupView()
     }
     
     

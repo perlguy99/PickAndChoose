@@ -15,7 +15,7 @@
                 <outlet property="pickerImageView" destination="xbj-Bq-VXZ" id="aAh-VE-CSz"/>
                 <outlet property="pickerImageViewHeightConstraint" destination="03L-sq-XfW" id="tUL-gA-m1h"/>
                 <outlet property="pickerImageViewLeadingConstraint" destination="Sd5-nM-cU7" id="bQf-On-uP5"/>
-                <outlet property="pickerLabel" destination="if9-rD-VdP" id="tM4-h8-i5t"/>
+                <outlet property="pickerLabel" destination="if9-rD-VdP" id="hNZ-gu-KAK"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -26,7 +26,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2x3-BC-I95" userLabel="Container View">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="if9-rD-VdP">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="if9-rD-VdP" customClass="PaddedLabel" customModule="PickAndChoose" customModuleProvider="target">
                             <rect key="frame" x="56" y="5" width="311" height="40"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
