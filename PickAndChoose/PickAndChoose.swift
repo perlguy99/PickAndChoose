@@ -10,22 +10,13 @@ import UIKit
 
 public typealias PickAndChooseData = [String]
 
-
-public protocol PickAndChooseDataSource {
-    var pickAndChooseData: PickAndChooseData? { get set }
+public protocol PickAndChooseDelegate {
+    var pickAndChooseData: PickAndChooseData? { get }
     
+    func pickAndChoose(_ picker: PickAndChoose, titleForRow row: Int, forComponent component: Int) -> String?
     func numberOfComponents(in picker: PickAndChoose) -> Int
     func pickAndChoose(_ picker: PickAndChoose, numberOfRowsInComponent component: Int) -> Int
     func pickAndChoose(_ picker: PickAndChoose, addItemToDataSource item: String)
-}
-
-
-public protocol PickAndChooseDelegate {
-    func pickAndChoose(_ picker: PickAndChoose, titleForRow row: Int, forComponent component: Int) -> String?
-    
-//    func setDefaultValue(to defaultValue: String)
-//    func setSelectedValue(to selectedValue: String)
-//    func selectionChanged()
 }
 
 
@@ -39,21 +30,25 @@ public class PickAndChoose: UIView {
         didSet {
             pickerLabel.text = currentlySelected
             
-            if let foo = dataSource?.pickAndChooseData?.index(of: currentlySelected) {
+            if let foo = delegate?.pickAndChooseData?.index(of: currentlySelected) {
                 currentlySelectedIndex = (column: 0, row: foo + 1)
             }
         }
     }
     
     public var delegate:   PickAndChooseDelegate?
-    public var dataSource: PickAndChooseDataSource?
     
     @IBOutlet weak var containerView: UIView!
     
     @IBOutlet weak var pickerLabel: PaddedLabel!
     @IBOutlet weak var pickerImageView: UIImageView!
     
-    @IBOutlet weak public var pickerImageViewHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak public var pickerImageViewHeightConstraint: NSLayoutConstraint! {
+        didSet {
+            pickerImageView.size = CGSize(width: pickerImageViewHeightConstraint.constant, height: pickerImageViewHeightConstraint.constant)
+        }
+    }
+    
     @IBOutlet weak var pickerImageViewLeadingConstraint: NSLayoutConstraint!
     
     @IBInspectable
@@ -106,7 +101,7 @@ public class PickAndChoose: UIView {
         alert.setMessage(font: messageFont, color: .black)
         alert.setTitle(font: titleFont, color: .black)
         
-        if let pickAndChooseData = dataSource?.pickAndChooseData {
+        if let pickAndChooseData = delegate?.pickAndChooseData {
             
             // Adds a blank to the beginning of the data
             var displayData = pickAndChooseData
@@ -161,7 +156,7 @@ public class PickAndChoose: UIView {
         alert.addOneTextField(configuration: config)
         
         alert.addAction(image: nil, title: "OK", color: nil, style: .default, isEnabled: true) { (action) in
-            self.dataSource?.pickAndChoose(self, addItemToDataSource: valueText)
+            self.delegate?.pickAndChoose(self, addItemToDataSource: valueText)
         }
         
         alert.addAction(title: "Cancel", style: .cancel)
@@ -251,7 +246,7 @@ public class PickAndChoose: UIView {
     public var imageHeight: CGFloat {
         get { return pickerImageViewHeightConstraint.constant }
         set {
-            pickerImageView.size                     = CGSize(width: newValue, height: newValue)
+            pickerImageView.size = CGSize(width: newValue, height: newValue)
             pickerImageViewHeightConstraint.constant = newValue
         }
     }

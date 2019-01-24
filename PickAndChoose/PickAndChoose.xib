@@ -47,7 +47,6 @@
                         <constraint firstItem="if9-rD-VdP" firstAttribute="top" secondItem="2x3-BC-I95" secondAttribute="top" priority="750" constant="5" id="Dcv-Ls-75n"/>
                         <constraint firstItem="xbj-Bq-VXZ" firstAttribute="centerY" secondItem="2x3-BC-I95" secondAttribute="centerY" id="KRp-2r-h3h"/>
                         <constraint firstItem="xbj-Bq-VXZ" firstAttribute="leading" secondItem="2x3-BC-I95" secondAttribute="leading" constant="8" id="Sd5-nM-cU7"/>
-                        <constraint firstItem="xbj-Bq-VXZ" firstAttribute="height" secondItem="2x3-BC-I95" secondAttribute="height" constant="-10" id="Y6Y-ml-SVo"/>
                         <constraint firstItem="if9-rD-VdP" firstAttribute="leading" secondItem="xbj-Bq-VXZ" secondAttribute="trailing" constant="8" id="atf-Em-RPc"/>
                     </constraints>
                 </view>

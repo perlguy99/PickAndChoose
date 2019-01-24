@@ -9,10 +9,10 @@
 import UIKit
 import PickAndChoose
 
-class ViewController: UIViewController, PickAndChooseDataSource, PickAndChooseDelegate {
+class ViewController: UIViewController, PickAndChooseDelegate {
     var pickAndChooseData: PickAndChooseData? = ["Emergency2", "Complaint2", "Appointment2", "Information2"]
     
-    // PickAndChooseDataSource
+    // PickAndChooseDelegate
     func numberOfComponents(in picker: PickAndChoose) -> Int {
         return 1
     }
@@ -32,7 +32,7 @@ class ViewController: UIViewController, PickAndChooseDataSource, PickAndChooseDe
         print("\nADD ITEM \(item) TO THE DATA SOURCE\n")
     }
     
-    // PickAndChooseDelegate
+    
     func pickAndChoose(_ picker: PickAndChoose, titleForRow row: Int, forComponent component: Int) -> String? {
         return pickAndChooseData?.item(at: row)
 //        return pickAndChooseData?[component].item(at: row)
@@ -46,7 +46,6 @@ class ViewController: UIViewController, PickAndChooseDataSource, PickAndChooseDe
         super.viewDidLoad()
         
         // Do any additional setup after loading the view, typically from a nib.
-        button2.dataSource = self
         button2.delegate   = self
 
         button1.fieldName = "Button 1"
