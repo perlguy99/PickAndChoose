@@ -22,8 +22,6 @@ public protocol PickAndChooseDelegate {
 
 @IBDesignable
 public class PickAndChoose: UIView {
-    let defaultSelectedText = "Appointment"
-
     var currentlySelectedIndex: PickerViewViewController.Index?
     
     private var currentlySelected: String = "" {
@@ -51,21 +49,6 @@ public class PickAndChoose: UIView {
     }
     
     @IBOutlet weak var pickerImageViewLeadingConstraint: NSLayoutConstraint!
-    
-    @IBInspectable
-    public var myImage: UIImage? {
-        didSet {
-            if let image = myImage {
-//                pickerImageViewHeightConstraint.constant  = containerView.height - 10.0
-                pickerImageViewLeadingConstraint.constant = 8.0
-                pickerImageView.image                     = image
-            }
-            else {
-                pickerImageViewHeightConstraint.constant  = 0
-                pickerImageViewLeadingConstraint.constant = 0
-            }
-        }
-    }
     
     public var currentValue: String? {
         return pickerLabel.text
@@ -114,8 +97,6 @@ public class PickAndChoose: UIView {
             
             alert.addPickerView(values: [displayData], initialSelection: self.currentlySelectedIndex) { (vc, picker, index, values) in
                 self.setSelectedValue(to: self.delegate?.pickAndChoose(self, titleForRow: index.row - 1, forComponent: index.column) ?? "")
-//                self.currentlySelectedIndex = index
-//                self.currentlySelected      = self.delegate?.pickAndChoose(self, titleForRow: index.row - 1, forComponent: index.column) ?? ""
             }
         }
 
@@ -129,8 +110,6 @@ public class PickAndChoose: UIView {
         alert.addAction(title: "Done", style: .cancel)
         alert.show()
     }
-    
-    
     
     
     func addNewValueAction() {
@@ -165,35 +144,119 @@ public class PickAndChoose: UIView {
         }
         
         alert.addAction(title: "Cancel", style: .cancel)
-        
         alert.show()
     }
     
     
+    // MARK: - IBInspectable Variables
     @IBInspectable
-    public var allowsAddingValues: Bool = false
-    
-    // Used for the title of the Add New value
-    @IBInspectable
-    public var fieldName: String = ""
-
-    
-    @IBInspectable
-    public var bgColor: UIColor? {
-        get { return containerView.backgroundColor }
-        set { containerView.backgroundColor = newValue }
-    }
-
-    
-    @IBInspectable
-    public var placeholderText: String? {
-        get { return pickerLabel.text }
-        set {
-            pickerLabel.textColor = fontColor?.withAlphaComponent(0.6)
-            pickerLabel.text      = newValue
+    public var myImage: UIImage? {
+        didSet {
+            if let image = myImage {
+                pickerImageViewLeadingConstraint.constant = 8.0
+                pickerImageView.image                     = image
+            }
+            else {
+                pickerImageViewHeightConstraint.constant  = 0
+                pickerImageViewLeadingConstraint.constant = 0
+            }
         }
     }
     
+    @IBInspectable public var allowsAddingValues: Bool = false
+    
+    // Used for the title of the Add New value
+    @IBInspectable public var fieldName: String = ""
+
+    @IBInspectable
+    public var bgColor: UIColor = .white {
+        didSet {
+            containerView.backgroundColor = bgColor
+        }
+    }
+
+
+    
+    // MARK: - Control Outer Border
+    @IBInspectable
+    public var controlBorderColor: UIColor? {
+        didSet {
+            containerView.borderColor = controlBorderColor
+        }
+    }
+
+    @IBInspectable
+    public var controlBorderWidth: CGFloat = 0 {
+        didSet {
+            containerView.borderWidth = controlBorderWidth
+        }
+    }
+    
+    @IBInspectable
+    public var controlBorderCornerRadius: CGFloat = 0 {
+        didSet {
+            containerView.layer.cornerRadius = controlBorderCornerRadius
+        }
+    }
+    
+    
+    // MARK: - Image settings and border
+    @IBInspectable
+    public var imageBorderColor: UIColor? {
+        didSet { pickerImageView.borderColor = imageBorderColor
+        }
+    }
+
+    @IBInspectable
+    public var imageBorderWidth: CGFloat = 0 {
+        didSet {
+            pickerImageView.borderWidth = imageBorderWidth
+        }
+    }
+    
+    @IBInspectable
+    public var imageBorderCornerRadius: CGFloat = 0 {
+        didSet {
+            pickerImageView.layer.cornerRadius = imageBorderCornerRadius
+        }
+    }
+
+    @IBInspectable
+    public var imageHeight: CGFloat = 40 {
+        didSet {
+            pickerImageView.size = CGSize(width: imageHeight, height: imageHeight)
+            pickerImageViewHeightConstraint.constant = imageHeight
+        }
+    }
+
+    
+    // MARK: - Label font and border settings
+    @IBInspectable
+    public var labelBorderColor: UIColor? {
+        didSet { pickerLabel.borderColor = labelBorderColor }
+    }
+    
+    @IBInspectable
+    public var labelBorderWidth: CGFloat = 0 {
+        didSet {
+            pickerLabel.borderWidth = labelBorderWidth
+        }
+    }
+
+    @IBInspectable
+    public var labelBorderCornerRadius: CGFloat = 0 {
+        didSet {
+            pickerLabel.layer.cornerRadius = labelBorderCornerRadius
+        }
+    }
+    
+    @IBInspectable
+    public var placeholderText: String? {
+        didSet {
+            pickerLabel.textColor = fontColor?.withAlphaComponent(0.6)
+            pickerLabel.text      = placeholderText
+        }
+    }
     
     @IBInspectable
     public var fontSize: CGFloat = 16 {
@@ -201,84 +264,11 @@ public class PickAndChoose: UIView {
             pickerLabel.font = pickerLabel.font.withSize(fontSize)
         }
     }
-
     
     @IBInspectable
     public var fontColor: UIColor? {
-        get { return pickerLabel.textColor }
-        set { pickerLabel.textColor = newValue }
+        didSet { pickerLabel.textColor = fontColor }
     }
-
-
-    
-    // Overall border
-    @IBInspectable
-    public var controlBorderColor: UIColor? {
-        get { return containerView.borderColor }
-        set { containerView.borderColor = newValue }
-    }
-
-    @IBInspectable
-    public var controlBorderWidth: CGFloat {
-        get { return containerView.borderWidth }
-        set { containerView.borderWidth = newValue }
-    }
-
-    @IBInspectable
-    public var controlBorderCornerRadius: CGFloat {
-        get { return containerView.layer.cornerRadius }
-        set { containerView.layer.cornerRadius = newValue }
-    }
-    
-    
-    // Image border
-    @IBInspectable
-    public var imageBorderColor: UIColor? {
-        get { return pickerImageView.borderColor }
-        set { pickerImageView.borderColor = newValue }
-    }
-
-    @IBInspectable
-    public var imageBorderWidth: CGFloat {
-        get { return pickerImageView.borderWidth }
-        set { pickerImageView.borderWidth = newValue }
-    }
-    
-    @IBInspectable
-    public var imageBorderCornerRadius: CGFloat {
-        get { return pickerImageView.layer.cornerRadius }
-        set { pickerImageView.layer.cornerRadius = newValue }
-    }
-
-    @IBInspectable
-    public var imageHeight: CGFloat {
-        get { return pickerImageViewHeightConstraint.constant }
-        set {
-            pickerImageView.size = CGSize(width: newValue, height: newValue)
-            pickerImageViewHeightConstraint.constant = newValue
-        }
-    }
-
-    
-    // Label border
-    @IBInspectable
-    public var labelBorderColor: UIColor? {
-        get { return pickerLabel.borderColor }
-        set { pickerLabel.borderColor = newValue }
-    }
-    
-    @IBInspectable
-    public var labelBorderWidth: CGFloat {
-        get { return pickerLabel.borderWidth }
-        set { pickerLabel.borderWidth = newValue }
-    }
-
-    @IBInspectable
-    public var labelBorderCornerRadius: CGFloat {
-        get { return pickerLabel.layer.cornerRadius }
-        set { pickerLabel.layer.cornerRadius = newValue }
-    }
-    
     
     
     // MARK: - Interface Builder
