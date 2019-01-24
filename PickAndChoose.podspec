@@ -14,7 +14,7 @@ spec.name                  = "PickAndChoose"
 spec.summary               = "A UILabel integrated with a UIPicker."
 spec.requires_arc          = true
 
-spec.version               = "1.0.3"
+spec.version               = "1.0.4"
 
 spec.license               = { :type => "MIT", :file => "LICENSE" }
 

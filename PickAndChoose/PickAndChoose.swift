@@ -28,7 +28,8 @@ public class PickAndChoose: UIView {
     
     private var currentlySelected: String = "" {
         didSet {
-            pickerLabel.text = currentlySelected
+            pickerLabel.textColor = fontColor?.withAlphaComponent(1.0)
+            pickerLabel.text      = currentlySelected
             
             if let foo = delegate?.pickAndChooseData?.index(of: currentlySelected) {
                 currentlySelectedIndex = (column: 0, row: foo + 1)
@@ -64,6 +65,10 @@ public class PickAndChoose: UIView {
                 pickerImageViewLeadingConstraint.constant = 0
             }
         }
+    }
+    
+    public var currentValue: String? {
+        return pickerLabel.text
     }
     
     
@@ -183,7 +188,10 @@ public class PickAndChoose: UIView {
     @IBInspectable
     public var placeholderText: String? {
         get { return pickerLabel.text }
-        set { pickerLabel.text = newValue }
+        set {
+            pickerLabel.textColor = fontColor?.withAlphaComponent(0.6)
+            pickerLabel.text      = newValue
+        }
     }
     
     
