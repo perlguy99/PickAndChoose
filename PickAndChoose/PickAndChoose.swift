@@ -247,7 +247,12 @@ public class PickAndChoose: UIView {
         set { pickerImageView.layer.cornerRadius = newValue }
     }
 
-    
+    @IBInspectable
+    public var imageHeight: CGFloat {
+        get { return pickerImageViewHeightConstraint.constant }
+        set {  pickerImageViewHeightConstraint.constant = newValue }
+    }
+
     
     // Label border
     @IBInspectable

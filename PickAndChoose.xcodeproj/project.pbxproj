@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10B588C2BA7ABB237A5384B4 /* libPods-PickAndChooseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8829C9BE886CA80E363331E /* libPods-PickAndChooseTests.a */; };
+		5C316903E73023E76C044F4A /* libPods-ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DC33B54A4E7ABC8F62DE67 /* libPods-ExampleTests.a */; };
 		845CB0EB21F50B5A0013B00F /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB09C21F50B590013B00F /* Array+Extensions.swift */; };
 		845CB0EC21F50B5A0013B00F /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB09D21F50B590013B00F /* UISegmentedControl+Extensions.swift */; };
 		845CB0ED21F50B5A0013B00F /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB09E21F50B590013B00F /* UIImageView+Extensions.swift */; };
@@ -54,6 +56,8 @@
 		84E6514421F3DD68003FF61C /* PickAndChoose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6507421F3BD77003FF61C /* PickAndChoose.framework */; };
 		84FDDA4B21F90B0A007C21F1 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDA4A21F90B0A007C21F1 /* PaddedLabel.swift */; };
 		84FDDAAE21FA1670007C21F1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDAAD21FA166F007C21F1 /* LICENSE */; };
+		A6317535B115B2B6A6C1B4C0 /* libPods-PickAndChoose.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB789AD450530D7984F56F7F /* libPods-PickAndChoose.a */; };
+		ED792A2D3E54D68B5C8FD214 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B23C3D4C0B7D2147D7A1A1F3 /* libPods-Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +99,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07DC33B54A4E7ABC8F62DE67 /* libPods-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DA8C2EDE1E2548BEACDA6E /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-ExampleTests/Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		20197BF814D2715FA67DE57A /* Pods-PickAndChoose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndChoose.release.xcconfig"; path = "Target Support Files/Pods-PickAndChoose/Pods-PickAndChoose.release.xcconfig"; sourceTree = "<group>"; };
+		2CD62AEBE9CE4EC52F79B010 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		45B53BEA5C8CFB28CC52E2BB /* Pods-PickAndChooseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndChooseTests.debug.xcconfig"; path = "Target Support Files/Pods-PickAndChooseTests/Pods-PickAndChooseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74DF8770E6385D5892DC06D5 /* Pods-PickAndChoose.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndChoose.debug.xcconfig"; path = "Target Support Files/Pods-PickAndChoose/Pods-PickAndChoose.debug.xcconfig"; sourceTree = "<group>"; };
 		845CB09C21F50B590013B00F /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		845CB09D21F50B590013B00F /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
 		845CB09E21F50B590013B00F /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
@@ -147,6 +157,12 @@
 		84E6513621F3C83B003FF61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FDDA4A21F90B0A007C21F1 /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
 		84FDDAAD21FA166F007C21F1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		988BEB61ED3D6960814E3EDC /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A8829C9BE886CA80E363331E /* libPods-PickAndChooseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PickAndChooseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23C3D4C0B7D2147D7A1A1F3 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB789AD450530D7984F56F7F /* libPods-PickAndChoose.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PickAndChoose.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53FC522C22189D2BE0F614E /* Pods-PickAndChooseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndChooseTests.release.xcconfig"; path = "Target Support Files/Pods-PickAndChooseTests/Pods-PickAndChooseTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9ABDE8DF70456F44921F905 /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ExampleTests/Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6317535B115B2B6A6C1B4C0 /* libPods-PickAndChoose.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E6507E21F3BD77003FF61C /* PickAndChoose.framework in Frameworks */,
+				10B588C2BA7ABB237A5384B4 /* libPods-PickAndChooseTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E6514421F3DD68003FF61C /* PickAndChoose.framework in Frameworks */,
+				ED792A2D3E54D68B5C8FD214 /* libPods-Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C316903E73023E76C044F4A /* libPods-ExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +356,7 @@
 				84E6513321F3C83B003FF61C /* ExampleTests */,
 				84E6507521F3BD77003FF61C /* Products */,
 				84E6513D21F3DBE0003FF61C /* Frameworks */,
+				AF6D8A983960C690C4221801 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -397,8 +418,27 @@
 		84E6513D21F3DBE0003FF61C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B23C3D4C0B7D2147D7A1A1F3 /* libPods-Example.a */,
+				07DC33B54A4E7ABC8F62DE67 /* libPods-ExampleTests.a */,
+				CB789AD450530D7984F56F7F /* libPods-PickAndChoose.a */,
+				A8829C9BE886CA80E363331E /* libPods-PickAndChooseTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF6D8A983960C690C4221801 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				988BEB61ED3D6960814E3EDC /* Pods-Example.debug.xcconfig */,
+				2CD62AEBE9CE4EC52F79B010 /* Pods-Example.release.xcconfig */,
+				E9ABDE8DF70456F44921F905 /* Pods-ExampleTests.debug.xcconfig */,
+				08DA8C2EDE1E2548BEACDA6E /* Pods-ExampleTests.release.xcconfig */,
+				74DF8770E6385D5892DC06D5 /* Pods-PickAndChoose.debug.xcconfig */,
+				20197BF814D2715FA67DE57A /* Pods-PickAndChoose.release.xcconfig */,
+				45B53BEA5C8CFB28CC52E2BB /* Pods-PickAndChooseTests.debug.xcconfig */,
+				D53FC522C22189D2BE0F614E /* Pods-PickAndChooseTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,6 +459,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E6508821F3BD77003FF61C /* Build configuration list for PBXNativeTarget "PickAndChoose" */;
 			buildPhases = (
+				3096F219A3B103815871BE0C /* [CP] Check Pods Manifest.lock */,
 				84E6506F21F3BD77003FF61C /* Headers */,
 				84E6507021F3BD77003FF61C /* Sources */,
 				84E6507121F3BD77003FF61C /* Frameworks */,
@@ -437,6 +478,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E6508B21F3BD77003FF61C /* Build configuration list for PBXNativeTarget "PickAndChooseTests" */;
 			buildPhases = (
+				8304CF9D164456C5C62DEE58 /* [CP] Check Pods Manifest.lock */,
 				84E6507921F3BD77003FF61C /* Sources */,
 				84E6507A21F3BD77003FF61C /* Frameworks */,
 				84E6507B21F3BD77003FF61C /* Resources */,
@@ -455,10 +497,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E6513721F3C83B003FF61C /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				CEF78689E399EE0AC6196D4E /* [CP] Check Pods Manifest.lock */,
 				84E6511921F3C838003FF61C /* Sources */,
 				84E6511A21F3C838003FF61C /* Frameworks */,
 				84E6511B21F3C838003FF61C /* Resources */,
 				84E6514321F3DD4C003FF61C /* Embed Frameworks */,
+				44F44063159B3D6FDD3E21B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -474,6 +518,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E6513A21F3C83B003FF61C /* Build configuration list for PBXNativeTarget "ExampleTests" */;
 			buildPhases = (
+				213415BD519ED725DC9B1DE7 /* [CP] Check Pods Manifest.lock */,
 				84E6512C21F3C83A003FF61C /* Sources */,
 				84E6512D21F3C83A003FF61C /* Frameworks */,
 				84E6512E21F3C83A003FF61C /* Resources */,
@@ -570,6 +615,1021 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		213415BD519ED725DC9B1DE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3096F219A3B103815871BE0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickAndChoose-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44F44063159B3D6FDD3E21B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-resources.sh",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Afghanistan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Albania.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Algeria.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Andorra.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Antigua-and-Barbuda.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Argentina.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Armenia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Aruba.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Australia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Austria.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Azerbaijan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Bahamas.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Bahrain.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Bangladesh.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Barbados.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Belarus.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Belgium.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Belize.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Benin.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Bhutan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Bolivia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Bosnia-and-Herzegovina.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Botswana.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Brazil.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Brunei.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Bulgaria.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Burkina-Faso.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Burundi.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Cambodia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Cameroon.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Canada.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Cape-Verde.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Central-African-Republic.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Chad.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Chile.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/China.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Colombia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Comoros.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Congo-(Democratic).png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Congo-(Republic).png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Costa-Rica.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Cote-d'Ivoire.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Croatia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Cuba.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Cyprus.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Czech Republic.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Denmark.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Djibouti.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Dominica.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Dominican-Republic.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/East-Timor.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Ecuador.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Egypt.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/El-Salvador.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Equatorial-Guinea.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Eritrea.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Estonia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Ethiopia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Europe.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Fiji.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Finland.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/France.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Gabon.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Gambia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Georgia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Germany.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Ghana.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Grecee.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Grenada.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Guatemala.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Guinea-Bissau.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Guinea.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Guyana.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Haiti.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Honduras.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Hungary.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Iceland.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/India.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Indonesia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Iran.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Iraq.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Ireland.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Israel.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Italy.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Jamaica.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Japan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Jordan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Kazakhstan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Kenya.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Kiribati.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Korea,-North.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Kosovo.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Kuwait.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Kyrgyzstan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Laos.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Latvia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Lebanon.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Lesotho.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Liberia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Libya.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Liechtenstein.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Lithuania.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Luxembourg.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Macedonia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Madagascar.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Malawi.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Malaysia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Maldives.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Mali.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Malta.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Marshall-Islands.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Mauritania.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Mauritius.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Mexico.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Micronesia-(Federated).png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Moldova.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Monaco.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Mongolia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Montenegro.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Morocco.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Mozambique.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Myanmar.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Namibia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Nauru.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Nepal.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Netherlands.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/New Zealand.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Nicaragua.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Niger.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Nigeria.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Norway.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Oman.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Pakistan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Palau.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Panama.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Papua-New-Guinea.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Paraguay.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Peru.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Philippines.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Poland.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Portugal.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Qatar.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Romania.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Russia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Rwanda.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Saint-Kitts-and-Nevis.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Saint-Lucia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Saint-Vincent-and-the-Grenadines.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Samoa.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/San-Marino.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Sao-Tome-and-Principe.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Saudi-Arabia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Senegal.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Serbia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Seychelles.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Sierra-Leone.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Singapore.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Slovakia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Slovenia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Solomon-Islands.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Somalia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/South Africa.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/South Korea.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/South-Sudan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Spain.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Sri-Lanka.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Sudan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Suriname.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Swaziland.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Sweden.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Switzerland.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Syria.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Taiwan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Tajikistan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Tanzania.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Thailand.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Togo.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Tonga.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Trinidad-and-Tobago.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Tunisia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Turkey.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Turkmenistan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Tuvalu.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Uganda.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Ukraine.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/United Kingdom.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/United States of America.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/United-Arab-Emirates.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Uruguay.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Uzbekistan.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Vanuatu.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Vatican-City.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Venezuela.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Vietnam.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Yemen.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Zambia.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Flags/Zimbabwe.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AC.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AD.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AF.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AI.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AL.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AN.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AO.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AQ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AS.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AT.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AU.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AW.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AX.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/AZ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BA.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BB.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BD.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BF.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BH.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BI.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BJ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BL.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BN.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BO.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BQ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BS.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BT.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BV.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BW.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BY.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/BZ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CA.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CC.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CD.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CF.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CH.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CI.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CK.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CL.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CN.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CO.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CU.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CV.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CW.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CX.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CY.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/CZ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/DE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/DJ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/DK.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/DM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/DO.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/DZ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/EC.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/EE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/EG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/EH.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/ER.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/ES.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/ET.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/FI.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/FJ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/FK.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/FM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/FO.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/FR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/FX.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GA.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GB.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GD.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GF.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GH.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GI.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GL.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GN.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GP.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GQ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GS.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GT.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GU.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GW.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/GY.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/HK.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/HM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/HN.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/HR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/HT.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/HU.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/ID.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/IE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/IL.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/IM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/IN.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/IO.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/IQ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/IR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/IS.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/IT.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/JE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/JM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/JO.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/JP.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/KE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/KG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/KH.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/KI.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/KM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/KN.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/KP.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/KR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/KW.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/KY.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/KZ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/LA.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/LB.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/LC.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/LI.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/LK.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/LR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/LS.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/LT.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/LU.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/LV.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/LY.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MA.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MC.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MD.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/ME.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MF.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MH.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MK.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/ML.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MN.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MO.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MP.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MQ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MS.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MT.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MU.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MV.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MW.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MX.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MY.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/MZ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/NA.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/NC.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/NE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/NF.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/NG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/NI.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/NL.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/NO.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/NP.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/NR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/NU.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/NZ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/OM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PA.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PF.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PH.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PK.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PL.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PN.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PS.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PT.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PW.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/PY.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/QA.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/RE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/RO.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/RS.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/RU.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/RW.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SA.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SB.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SC.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SD.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SH.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SI.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SJ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SK.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SL.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SN.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SO.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SS.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/ST.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SV.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SX.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SY.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/SZ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TC.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TD.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TF.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TH.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TJ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TK.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TL.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TN.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TO.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TR.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TT.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TV.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TW.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/TZ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/UA.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/UG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/UM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/US.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/UY.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/UZ.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/VA.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/VC.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/VE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/VG.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/VI.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/VN.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/VU.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/WF.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/WS.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/XK.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/YE.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/YT.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/YU.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/ZA.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/ZM.png",
+				"${PODS_ROOT}/../PickAndChoose/AlertsAndPickers/Source/Pickers/Locale/Countries.bundle/Images/ZW.png",
+				"${PODS_ROOT}/../PickAndChoose/PickAndChoose.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Afghanistan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Albania.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Algeria.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Andorra.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Antigua-and-Barbuda.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Argentina.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Armenia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Aruba.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Australia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Austria.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Azerbaijan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Bahamas.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Bahrain.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Bangladesh.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Barbados.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Belarus.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Belgium.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Belize.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Benin.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Bhutan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Bolivia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Bosnia-and-Herzegovina.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Botswana.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Brazil.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Brunei.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Bulgaria.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Burkina-Faso.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Burundi.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Cambodia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Cameroon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Canada.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Cape-Verde.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Central-African-Republic.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Chad.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Chile.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/China.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Colombia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Comoros.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Congo-(Democratic).png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Congo-(Republic).png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Costa-Rica.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Cote-d'Ivoire.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Croatia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Cuba.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Cyprus.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Czech Republic.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Denmark.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Djibouti.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Dominica.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Dominican-Republic.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/East-Timor.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ecuador.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Egypt.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/El-Salvador.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Equatorial-Guinea.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Eritrea.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Estonia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ethiopia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Europe.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fiji.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Finland.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/France.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Gabon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Gambia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Georgia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Germany.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ghana.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Grecee.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Grenada.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Guatemala.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Guinea-Bissau.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Guinea.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Guyana.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Haiti.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Honduras.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Hungary.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Iceland.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/India.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Indonesia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Iran.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Iraq.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ireland.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Israel.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Italy.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Jamaica.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Japan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Jordan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Kazakhstan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Kenya.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Kiribati.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Korea,-North.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Kosovo.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Kuwait.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Kyrgyzstan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Laos.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Latvia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lebanon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lesotho.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Liberia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Libya.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Liechtenstein.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lithuania.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Luxembourg.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Macedonia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Madagascar.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Malawi.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Malaysia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Maldives.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Mali.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Malta.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Marshall-Islands.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Mauritania.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Mauritius.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Mexico.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Micronesia-(Federated).png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Moldova.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Monaco.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Mongolia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Montenegro.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Morocco.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Mozambique.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Myanmar.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Namibia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Nauru.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Nepal.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Netherlands.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/New Zealand.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Nicaragua.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Niger.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Nigeria.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Norway.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Oman.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Pakistan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Palau.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Panama.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Papua-New-Guinea.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Paraguay.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Peru.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Philippines.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Poland.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Portugal.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Qatar.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Romania.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Russia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Rwanda.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Saint-Kitts-and-Nevis.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Saint-Lucia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Saint-Vincent-and-the-Grenadines.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Samoa.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/San-Marino.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Sao-Tome-and-Principe.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Saudi-Arabia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Senegal.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Serbia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Seychelles.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Sierra-Leone.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Singapore.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Slovakia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Slovenia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Solomon-Islands.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Somalia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/South Africa.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/South Korea.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/South-Sudan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Spain.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Sri-Lanka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Sudan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Suriname.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Swaziland.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Sweden.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Switzerland.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Syria.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Taiwan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tajikistan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tanzania.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Thailand.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Togo.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tonga.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Trinidad-and-Tobago.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tunisia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Turkey.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Turkmenistan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tuvalu.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Uganda.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ukraine.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/United Kingdom.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/United States of America.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/United-Arab-Emirates.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Uruguay.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Uzbekistan.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Vanuatu.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Vatican-City.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Venezuela.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Vietnam.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Yemen.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zambia.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zimbabwe.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AC.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AD.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AF.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AI.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AL.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AN.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AO.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AQ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AS.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AT.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AU.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AW.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AX.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AZ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BA.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BB.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BD.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BF.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BH.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BI.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BJ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BL.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BN.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BO.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BQ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BS.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BT.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BV.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BW.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BY.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BZ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CA.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CC.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CD.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CF.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CH.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CI.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CK.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CL.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CN.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CO.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CU.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CV.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CW.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CX.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CY.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CZ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DJ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DK.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DO.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DZ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EC.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EH.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ER.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ES.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ET.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FI.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FJ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FK.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FO.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FX.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GA.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GB.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GD.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GF.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GH.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GI.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GL.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GN.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GP.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GQ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GS.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GT.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GU.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GW.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GY.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HK.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HN.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HT.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HU.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ID.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IL.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IN.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IO.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IS.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IT.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JO.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JP.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KH.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KI.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KN.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KP.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KW.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KY.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KZ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LA.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LB.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LC.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LI.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LK.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LS.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LT.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LU.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LV.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LY.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MA.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MC.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MD.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ME.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MF.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MH.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MK.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ML.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MN.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MO.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MP.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MQ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MS.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MT.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MU.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MV.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MW.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MX.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MY.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MZ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NA.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NC.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NF.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NI.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NL.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NO.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NP.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NU.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NZ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PA.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PF.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PH.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PK.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PL.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PN.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PS.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PT.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PW.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PY.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QA.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RO.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RS.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RU.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RW.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SA.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SB.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SC.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SD.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SH.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SI.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SJ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SK.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SL.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SN.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SO.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SS.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ST.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SV.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SX.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SY.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SZ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TC.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TD.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TF.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TH.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TJ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TK.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TL.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TN.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TO.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TR.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TT.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TV.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TW.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UA.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/US.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UY.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UZ.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VA.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VC.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VG.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VI.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VN.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VU.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WF.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WS.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XK.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YE.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YT.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YU.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZA.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZM.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZW.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PickAndChoose.nib",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8304CF9D164456C5C62DEE58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickAndChooseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF78689E399EE0AC6196D4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84E6507021F3BD77003FF61C /* Sources */ = {
@@ -802,6 +1862,7 @@
 		};
 		84E6508921F3BD77003FF61C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DF8770E6385D5892DC06D5 /* Pods-PickAndChoose.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -830,6 +1891,7 @@
 		};
 		84E6508A21F3BD77003FF61C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20197BF814D2715FA67DE57A /* Pods-PickAndChoose.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -857,6 +1919,7 @@
 		};
 		84E6508C21F3BD77003FF61C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B53BEA5C8CFB28CC52E2BB /* Pods-PickAndChooseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -876,6 +1939,7 @@
 		};
 		84E6508D21F3BD77003FF61C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53FC522C22189D2BE0F614E /* Pods-PickAndChooseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -895,6 +1959,7 @@
 		};
 		84E6513821F3C83B003FF61C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988BEB61ED3D6960814E3EDC /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -915,6 +1980,7 @@
 		};
 		84E6513921F3C83B003FF61C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD62AEBE9CE4EC52F79B010 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -935,6 +2001,7 @@
 		};
 		84E6513B21F3C83B003FF61C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ABDE8DF70456F44921F905 /* Pods-ExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -956,6 +2023,7 @@
 		};
 		84E6513C21F3C83B003FF61C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DA8C2EDE1E2548BEACDA6E /* Pods-ExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -44,7 +44,7 @@
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="if9-rD-VdP" secondAttribute="trailing" constant="8" id="1SG-IY-OAw"/>
                         <constraint firstAttribute="bottom" secondItem="if9-rD-VdP" secondAttribute="bottom" constant="5" id="1gQ-ch-PNS"/>
-                        <constraint firstItem="if9-rD-VdP" firstAttribute="top" secondItem="2x3-BC-I95" secondAttribute="top" constant="5" id="Dcv-Ls-75n"/>
+                        <constraint firstItem="if9-rD-VdP" firstAttribute="top" secondItem="2x3-BC-I95" secondAttribute="top" priority="750" constant="5" id="Dcv-Ls-75n"/>
                         <constraint firstItem="xbj-Bq-VXZ" firstAttribute="centerY" secondItem="2x3-BC-I95" secondAttribute="centerY" id="KRp-2r-h3h"/>
                         <constraint firstItem="xbj-Bq-VXZ" firstAttribute="leading" secondItem="2x3-BC-I95" secondAttribute="leading" constant="8" id="Sd5-nM-cU7"/>
                         <constraint firstItem="xbj-Bq-VXZ" firstAttribute="height" secondItem="2x3-BC-I95" secondAttribute="height" constant="-10" id="Y6Y-ml-SVo"/>
