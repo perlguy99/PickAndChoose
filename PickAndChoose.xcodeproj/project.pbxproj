@@ -56,6 +56,7 @@
 		84E6514421F3DD68003FF61C /* PickAndChoose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6507421F3BD77003FF61C /* PickAndChoose.framework */; };
 		84FDDA4B21F90B0A007C21F1 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDA4A21F90B0A007C21F1 /* PaddedLabel.swift */; };
 		84FDDAAE21FA1670007C21F1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDAAD21FA166F007C21F1 /* LICENSE */; };
+		84FDDAB021FA251C007C21F1 /* PickAndChoose.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDAAF21FA251C007C21F1 /* PickAndChoose.podspec */; };
 		A6317535B115B2B6A6C1B4C0 /* libPods-PickAndChoose.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB789AD450530D7984F56F7F /* libPods-PickAndChoose.a */; };
 		ED792A2D3E54D68B5C8FD214 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B23C3D4C0B7D2147D7A1A1F3 /* libPods-Example.a */; };
 /* End PBXBuildFile section */
@@ -157,6 +158,7 @@
 		84E6513621F3C83B003FF61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FDDA4A21F90B0A007C21F1 /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
 		84FDDAAD21FA166F007C21F1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		84FDDAAF21FA251C007C21F1 /* PickAndChoose.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PickAndChoose.podspec; sourceTree = "<group>"; };
 		988BEB61ED3D6960814E3EDC /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A8829C9BE886CA80E363331E /* libPods-PickAndChooseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PickAndChooseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23C3D4C0B7D2147D7A1A1F3 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -349,6 +351,7 @@
 		84E6506A21F3BD77003FF61C = {
 			isa = PBXGroup;
 			children = (
+				84FDDAAF21FA251C007C21F1 /* PickAndChoose.podspec */,
 				84FDDAAD21FA166F007C21F1 /* LICENSE */,
 				84E6507621F3BD77003FF61C /* PickAndChoose */,
 				84E6508121F3BD77003FF61C /* PickAndChooseTests */,
@@ -587,6 +590,7 @@
 			files = (
 				84FDDAAE21FA1670007C21F1 /* LICENSE in Resources */,
 				84E6508F21F3BDE2003FF61C /* PickAndChoose.xib in Resources */,
+				84FDDAB021FA251C007C21F1 /* PickAndChoose.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

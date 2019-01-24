@@ -60,7 +60,7 @@ public class PickAndChoose: UIView {
     public var myImage: UIImage? {
         didSet {
             if let image = myImage {
-                pickerImageViewHeightConstraint.constant  = containerView.height - 10.0
+//                pickerImageViewHeightConstraint.constant  = containerView.height - 10.0
                 pickerImageViewLeadingConstraint.constant = 8.0
                 pickerImageView.image                     = image
             }
@@ -250,7 +250,10 @@ public class PickAndChoose: UIView {
     @IBInspectable
     public var imageHeight: CGFloat {
         get { return pickerImageViewHeightConstraint.constant }
-        set {  pickerImageViewHeightConstraint.constant = newValue }
+        set {
+            pickerImageView.size                     = CGSize(width: newValue, height: newValue)
+            pickerImageViewHeightConstraint.constant = newValue
+        }
     }
 
     
