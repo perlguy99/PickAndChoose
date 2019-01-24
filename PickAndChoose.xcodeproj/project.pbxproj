@@ -26,35 +26,14 @@
 		845CB0FB21F50B5A0013B00F /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0AC21F50B590013B00F /* UITextField+Extensions.swift */; };
 		845CB0FC21F50B5A0013B00F /* AttributedTextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0AF21F50B590013B00F /* AttributedTextBlock.swift */; };
 		845CB0FD21F50B5A0013B00F /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0B021F50B590013B00F /* TextViewController.swift */; };
-		845CB0FE21F50B5A0013B00F /* Countries.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 845CB0B321F50B590013B00F /* Countries.bundle */; };
-		845CB0FF21F50B5A0013B00F /* LocaleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0B521F50B590013B00F /* LocaleStore.swift */; };
-		845CB10021F50B5A0013B00F /* LocaleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0B721F50B590013B00F /* LocaleInfo.swift */; };
-		845CB10121F50B5A0013B00F /* LocalePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0B821F50B590013B00F /* LocalePickerViewController.swift */; };
-		845CB10221F50B5A0013B00F /* PhoneCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0BA21F50B590013B00F /* PhoneCodeCell.swift */; };
-		845CB10321F50B5A0013B00F /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0BB21F50B590013B00F /* CurrencyCell.swift */; };
-		845CB10421F50B5A0013B00F /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0BC21F50B590013B00F /* CountryCell.swift */; };
 		845CB10521F50B5A0013B00F /* TwoTextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0BE21F50B590013B00F /* TwoTextFieldsViewController.swift */; };
 		845CB10621F50B5A0013B00F /* OneTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0BF21F50B590013B00F /* OneTextFieldViewController.swift */; };
-		845CB10721F50B5A0013B00F /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0C221F50B590013B00F /* Assets.swift */; };
-		845CB10821F50B5A0013B00F /* PhotoLibraryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0C321F50B590013B00F /* PhotoLibraryPickerViewController.swift */; };
-		845CB10921F50B5A0013B00F /* LocationSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0C521F50B590013B00F /* LocationSearchResultsViewController.swift */; };
-		845CB10A21F50B5A0013B00F /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0C621F50B590013B00F /* LocationPickerViewController.swift */; };
-		845CB10B21F50B5A0013B00F /* SearchHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0C821F50B590013B00F /* SearchHistoryManager.swift */; };
-		845CB10C21F50B5A0013B00F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0CA21F50B590013B00F /* Location.swift */; };
-		845CB10D21F50B5A0013B00F /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0CB21F50B590013B00F /* Address.swift */; };
 		845CB10E21F50B5A0013B00F /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0CD21F50B590013B00F /* PickerViewViewController.swift */; };
 		845CB10F21F50B5A0013B00F /* ContactsPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0CF21F50B590013B00F /* ContactsPickerViewController.swift */; };
 		845CB11021F50B5A0013B00F /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0D121F50B590013B00F /* Contacts.swift */; };
 		845CB11121F50B5A0013B00F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0D321F50B590013B00F /* Contact.swift */; };
 		845CB11221F50B5A0013B00F /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0D521F50B590013B00F /* ContactCell.swift */; };
-		845CB11321F50B5A0013B00F /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0D721F50B590013B00F /* ColorPickerViewController.swift */; };
 		845CB11421F50B5A0013B00F /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0D921F50B590013B00F /* DatePickerViewController.swift */; };
-		845CB11521F50B5A0013B00F /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0DB21F50B590013B00F /* ImagePickerViewController.swift */; };
-		845CB11621F50B5A0013B00F /* ItemWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0DD21F50B590013B00F /* ItemWithImage.swift */; };
-		845CB11721F50B5A0013B00F /* PhotoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0E021F50B590013B00F /* PhotoLayout.swift */; };
-		845CB11821F50B5A0013B00F /* TelegramPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0E121F50B590013B00F /* TelegramPickerViewController.swift */; };
-		845CB11921F50B5A0013B00F /* ItemWithPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0E321F50B590013B00F /* ItemWithPhoto.swift */; };
-		845CB11A21F50B5A0013B00F /* LikeButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0E421F50B590013B00F /* LikeButtonCell.swift */; };
 		845CB11B21F50B5A0013B00F /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0E621F50B590013B00F /* Label.swift */; };
 		845CB11C21F50B5A0013B00F /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0E721F50B590013B00F /* SegmentedControl.swift */; };
 		845CB11D21F50B5A0013B00F /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB0E821F50B590013B00F /* GradientSlider.swift */; };
@@ -74,6 +53,7 @@
 		84E6514021F3DD49003FF61C /* PickAndChoose.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6507421F3BD77003FF61C /* PickAndChoose.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84E6514421F3DD68003FF61C /* PickAndChoose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6507421F3BD77003FF61C /* PickAndChoose.framework */; };
 		84FDDA4B21F90B0A007C21F1 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDA4A21F90B0A007C21F1 /* PaddedLabel.swift */; };
+		84FDDAAE21FA1670007C21F1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDAAD21FA166F007C21F1 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,35 +114,14 @@
 		845CB0AC21F50B590013B00F /* UITextField+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		845CB0AF21F50B590013B00F /* AttributedTextBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedTextBlock.swift; sourceTree = "<group>"; };
 		845CB0B021F50B590013B00F /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
-		845CB0B321F50B590013B00F /* Countries.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Countries.bundle; sourceTree = "<group>"; };
-		845CB0B521F50B590013B00F /* LocaleStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaleStore.swift; sourceTree = "<group>"; };
-		845CB0B721F50B590013B00F /* LocaleInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaleInfo.swift; sourceTree = "<group>"; };
-		845CB0B821F50B590013B00F /* LocalePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalePickerViewController.swift; sourceTree = "<group>"; };
-		845CB0BA21F50B590013B00F /* PhoneCodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCodeCell.swift; sourceTree = "<group>"; };
-		845CB0BB21F50B590013B00F /* CurrencyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
-		845CB0BC21F50B590013B00F /* CountryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
 		845CB0BE21F50B590013B00F /* TwoTextFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoTextFieldsViewController.swift; sourceTree = "<group>"; };
 		845CB0BF21F50B590013B00F /* OneTextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneTextFieldViewController.swift; sourceTree = "<group>"; };
-		845CB0C221F50B590013B00F /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
-		845CB0C321F50B590013B00F /* PhotoLibraryPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibraryPickerViewController.swift; sourceTree = "<group>"; };
-		845CB0C521F50B590013B00F /* LocationSearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchResultsViewController.swift; sourceTree = "<group>"; };
-		845CB0C621F50B590013B00F /* LocationPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
-		845CB0C821F50B590013B00F /* SearchHistoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHistoryManager.swift; sourceTree = "<group>"; };
-		845CB0CA21F50B590013B00F /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		845CB0CB21F50B590013B00F /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		845CB0CD21F50B590013B00F /* PickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
 		845CB0CF21F50B590013B00F /* ContactsPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsPickerViewController.swift; sourceTree = "<group>"; };
 		845CB0D121F50B590013B00F /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		845CB0D321F50B590013B00F /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		845CB0D521F50B590013B00F /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
-		845CB0D721F50B590013B00F /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		845CB0D921F50B590013B00F /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
-		845CB0DB21F50B590013B00F /* ImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
-		845CB0DD21F50B590013B00F /* ItemWithImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemWithImage.swift; sourceTree = "<group>"; };
-		845CB0E021F50B590013B00F /* PhotoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLayout.swift; sourceTree = "<group>"; };
-		845CB0E121F50B590013B00F /* TelegramPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelegramPickerViewController.swift; sourceTree = "<group>"; };
-		845CB0E321F50B590013B00F /* ItemWithPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemWithPhoto.swift; sourceTree = "<group>"; };
-		845CB0E421F50B590013B00F /* LikeButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButtonCell.swift; sourceTree = "<group>"; };
 		845CB0E621F50B590013B00F /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		845CB0E721F50B590013B00F /* SegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		845CB0E821F50B590013B00F /* GradientSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
@@ -187,6 +146,7 @@
 		84E6513421F3C83B003FF61C /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		84E6513621F3C83B003FF61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FDDA4A21F90B0A007C21F1 /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		84FDDAAD21FA166F007C21F1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,56 +246,12 @@
 		845CB0B121F50B590013B00F /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
-				845CB0B221F50B590013B00F /* Locale */,
 				845CB0BD21F50B590013B00F /* TextFields */,
-				845CB0C021F50B590013B00F /* PhotoLibrary */,
-				845CB0C421F50B590013B00F /* Location */,
 				845CB0CC21F50B590013B00F /* PickerView */,
 				845CB0CE21F50B590013B00F /* Contacts */,
-				845CB0D621F50B590013B00F /* Color */,
 				845CB0D821F50B590013B00F /* Date */,
-				845CB0DA21F50B590013B00F /* Image */,
-				845CB0DE21F50B590013B00F /* Telegram */,
 			);
 			path = Pickers;
-			sourceTree = "<group>";
-		};
-		845CB0B221F50B590013B00F /* Locale */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0B321F50B590013B00F /* Countries.bundle */,
-				845CB0B421F50B590013B00F /* Managers */,
-				845CB0B621F50B590013B00F /* Models */,
-				845CB0B821F50B590013B00F /* LocalePickerViewController.swift */,
-				845CB0B921F50B590013B00F /* Views */,
-			);
-			path = Locale;
-			sourceTree = "<group>";
-		};
-		845CB0B421F50B590013B00F /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0B521F50B590013B00F /* LocaleStore.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		845CB0B621F50B590013B00F /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0B721F50B590013B00F /* LocaleInfo.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		845CB0B921F50B590013B00F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0BA21F50B590013B00F /* PhoneCodeCell.swift */,
-				845CB0BB21F50B590013B00F /* CurrencyCell.swift */,
-				845CB0BC21F50B590013B00F /* CountryCell.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		845CB0BD21F50B590013B00F /* TextFields */ = {
@@ -345,51 +261,6 @@
 				845CB0BF21F50B590013B00F /* OneTextFieldViewController.swift */,
 			);
 			path = TextFields;
-			sourceTree = "<group>";
-		};
-		845CB0C021F50B590013B00F /* PhotoLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0C121F50B590013B00F /* Managers */,
-				845CB0C321F50B590013B00F /* PhotoLibraryPickerViewController.swift */,
-			);
-			path = PhotoLibrary;
-			sourceTree = "<group>";
-		};
-		845CB0C121F50B590013B00F /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0C221F50B590013B00F /* Assets.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		845CB0C421F50B590013B00F /* Location */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0C521F50B590013B00F /* LocationSearchResultsViewController.swift */,
-				845CB0C621F50B590013B00F /* LocationPickerViewController.swift */,
-				845CB0C721F50B590013B00F /* Managers */,
-				845CB0C921F50B590013B00F /* Models */,
-			);
-			path = Location;
-			sourceTree = "<group>";
-		};
-		845CB0C721F50B590013B00F /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0C821F50B590013B00F /* SearchHistoryManager.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		845CB0C921F50B590013B00F /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0CA21F50B590013B00F /* Location.swift */,
-				845CB0CB21F50B590013B00F /* Address.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		845CB0CC21F50B590013B00F /* PickerView */ = {
@@ -435,64 +306,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		845CB0D621F50B590013B00F /* Color */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0D721F50B590013B00F /* ColorPickerViewController.swift */,
-			);
-			path = Color;
-			sourceTree = "<group>";
-		};
 		845CB0D821F50B590013B00F /* Date */ = {
 			isa = PBXGroup;
 			children = (
 				845CB0D921F50B590013B00F /* DatePickerViewController.swift */,
 			);
 			path = Date;
-			sourceTree = "<group>";
-		};
-		845CB0DA21F50B590013B00F /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0DB21F50B590013B00F /* ImagePickerViewController.swift */,
-				845CB0DC21F50B590013B00F /* Views */,
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
-		845CB0DC21F50B590013B00F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0DD21F50B590013B00F /* ItemWithImage.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		845CB0DE21F50B590013B00F /* Telegram */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0DF21F50B590013B00F /* Layouts */,
-				845CB0E121F50B590013B00F /* TelegramPickerViewController.swift */,
-				845CB0E221F50B590013B00F /* Views */,
-			);
-			path = Telegram;
-			sourceTree = "<group>";
-		};
-		845CB0DF21F50B590013B00F /* Layouts */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0E021F50B590013B00F /* PhotoLayout.swift */,
-			);
-			path = Layouts;
-			sourceTree = "<group>";
-		};
-		845CB0E221F50B590013B00F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				845CB0E321F50B590013B00F /* ItemWithPhoto.swift */,
-				845CB0E421F50B590013B00F /* LikeButtonCell.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		845CB0E521F50B590013B00F /* Views */ = {
@@ -510,6 +329,7 @@
 		84E6506A21F3BD77003FF61C = {
 			isa = PBXGroup;
 			children = (
+				84FDDAAD21FA166F007C21F1 /* LICENSE */,
 				84E6507621F3BD77003FF61C /* PickAndChoose */,
 				84E6508121F3BD77003FF61C /* PickAndChooseTests */,
 				84E6511E21F3C838003FF61C /* Example */,
@@ -720,7 +540,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845CB0FE21F50B5A0013B00F /* Countries.bundle in Resources */,
+				84FDDAAE21FA1670007C21F1 /* LICENSE in Resources */,
 				84E6508F21F3BDE2003FF61C /* PickAndChoose.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -756,28 +576,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845CB11521F50B5A0013B00F /* ImagePickerViewController.swift in Sources */,
 				845CB11221F50B5A0013B00F /* ContactCell.swift in Sources */,
 				845CB11121F50B5A0013B00F /* Contact.swift in Sources */,
 				845CB11421F50B5A0013B00F /* DatePickerViewController.swift in Sources */,
 				845CB0EF21F50B5A0013B00F /* UIView+Extensions.swift in Sources */,
-				845CB11821F50B5A0013B00F /* TelegramPickerViewController.swift in Sources */,
 				84FDDA4B21F90B0A007C21F1 /* PaddedLabel.swift in Sources */,
 				845CB0FC21F50B5A0013B00F /* AttributedTextBlock.swift in Sources */,
 				845CB10621F50B5A0013B00F /* OneTextFieldViewController.swift in Sources */,
 				845CB0F821F50B5A0013B00F /* Optional+Extensions.swift in Sources */,
 				845CB11021F50B5A0013B00F /* Contacts.swift in Sources */,
-				845CB10221F50B5A0013B00F /* PhoneCodeCell.swift in Sources */,
 				845CB0F321F50B5A0013B00F /* UIColor+Extensions.swift in Sources */,
-				845CB10321F50B5A0013B00F /* CurrencyCell.swift in Sources */,
-				845CB10821F50B5A0013B00F /* PhotoLibraryPickerViewController.swift in Sources */,
 				845CB0F221F50B5A0013B00F /* UITextView+Extensions.swift in Sources */,
 				845CB0F521F50B5A0013B00F /* UISearchBar+Extensions.swift in Sources */,
-				845CB11921F50B5A0013B00F /* ItemWithPhoto.swift in Sources */,
 				845CB0F721F50B5A0013B00F /* UIAlertController+Extensions.swift in Sources */,
 				845CB11F21F50B5A0013B00F /* Button.swift in Sources */,
 				845CB0F921F50B5A0013B00F /* Common+Extensions.swift in Sources */,
-				845CB10721F50B5A0013B00F /* Assets.swift in Sources */,
 				845CB0F621F50B5A0013B00F /* UIApplication+Extensions.swift in Sources */,
 				84E6509121F3BDF5003FF61C /* PickAndChoose.swift in Sources */,
 				845CB11D21F50B5A0013B00F /* GradientSlider.swift in Sources */,
@@ -786,30 +599,17 @@
 				845CB0F421F50B5A0013B00F /* UIImage+Extensions.swift in Sources */,
 				845CB0EB21F50B5A0013B00F /* Array+Extensions.swift in Sources */,
 				845CB11B21F50B5A0013B00F /* Label.swift in Sources */,
-				845CB11621F50B5A0013B00F /* ItemWithImage.swift in Sources */,
-				845CB10121F50B5A0013B00F /* LocalePickerViewController.swift in Sources */,
 				845CB0EE21F50B5A0013B00F /* UIViewController+Extensions.swift in Sources */,
 				845CB11E21F50B5A0013B00F /* TextField.swift in Sources */,
-				845CB11321F50B5A0013B00F /* ColorPickerViewController.swift in Sources */,
 				845CB0F121F50B5A0013B00F /* String+Extensions.swift in Sources */,
-				845CB10C21F50B5A0013B00F /* Location.swift in Sources */,
-				845CB11A21F50B5A0013B00F /* LikeButtonCell.swift in Sources */,
 				845CB0FD21F50B5A0013B00F /* TextViewController.swift in Sources */,
-				845CB0FF21F50B5A0013B00F /* LocaleStore.swift in Sources */,
-				845CB10021F50B5A0013B00F /* LocaleInfo.swift in Sources */,
 				845CB0F021F50B5A0013B00F /* Date+Extension.swift in Sources */,
-				845CB10921F50B5A0013B00F /* LocationSearchResultsViewController.swift in Sources */,
 				845CB0FB21F50B5A0013B00F /* UITextField+Extensions.swift in Sources */,
-				845CB11721F50B5A0013B00F /* PhotoLayout.swift in Sources */,
 				845CB10F21F50B5A0013B00F /* ContactsPickerViewController.swift in Sources */,
 				845CB10E21F50B5A0013B00F /* PickerViewViewController.swift in Sources */,
 				845CB0ED21F50B5A0013B00F /* UIImageView+Extensions.swift in Sources */,
-				845CB10421F50B5A0013B00F /* CountryCell.swift in Sources */,
 				845CB0EC21F50B5A0013B00F /* UISegmentedControl+Extensions.swift in Sources */,
-				845CB10B21F50B5A0013B00F /* SearchHistoryManager.swift in Sources */,
-				845CB10A21F50B5A0013B00F /* LocationPickerViewController.swift in Sources */,
 				845CB11C21F50B5A0013B00F /* SegmentedControl.swift in Sources */,
-				845CB10D21F50B5A0013B00F /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
