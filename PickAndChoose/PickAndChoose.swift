@@ -8,25 +8,20 @@
 
 import UIKit
 
-public typealias PickAndChooseData = [[String]]
-public typealias PickAndChooseData2 = [String]
+public typealias PickAndChooseData = [String]
 
 
 public protocol PickAndChooseDataSource {
-    var pickAndChooseData: PickAndChooseData2? { get set }
-//    var pickAndChooseDataDefaultValue: String { get set }
+    var pickAndChooseData: PickAndChooseData? { get set }
     
     func numberOfComponents(in picker: PickAndChoose) -> Int
     func pickAndChoose(_ picker: PickAndChoose, numberOfRowsInComponent component: Int) -> Int
     func pickAndChoose(_ picker: PickAndChoose, addItemToDataSource item: String)
-    
-//    func addItemToDataSource(_ newItem: String)
-    
 }
 
 
 public protocol PickAndChooseDelegate {
-    func pickAndChoose(_ picker: PickAndChoose, titleForRow row: Int, forCompinent component: Int) -> String?
+    func pickAndChoose(_ picker: PickAndChoose, titleForRow row: Int, forComponent component: Int) -> String?
     
 //    func setDefaultValue(to defaultValue: String)
 //    func setSelectedValue(to selectedValue: String)
@@ -40,7 +35,7 @@ public class PickAndChoose: UIView {
 
     var currentlySelectedIndex: PickerViewViewController.Index?
     
-    public var currentlySelected: String = "" {
+    private var currentlySelected: String = "" {
         didSet {
             pickerLabel.text = currentlySelected
             
@@ -93,6 +88,10 @@ public class PickAndChoose: UIView {
     }
 
     
+    public func setSelectedValue(to value: String) {
+        currentlySelected = value
+    }
+    
     
     @objc func viewTapped(_ sender: Any) {
         
@@ -114,16 +113,9 @@ public class PickAndChoose: UIView {
             displayData.insert("", at: 0)
             
             alert.addPickerView(values: [displayData], initialSelection: self.currentlySelectedIndex) { (vc, picker, index, values) in
-//                print("\n\n")
-//                print("++++++++++++++++++++++++++++++++++++++++++++++++")
-//                print(index)
-//                print("------")
-//                print(values)
-//                print("++++++++++++++++++++++++++++++++++++++++++++++++")
-//                print("\n\n")
-                
-                self.currentlySelectedIndex = index
-                self.currentlySelected      = self.delegate?.pickAndChoose(self, titleForRow: index.row - 1, forCompinent: index.column) ?? ""
+                self.setSelectedValue(to: self.delegate?.pickAndChoose(self, titleForRow: index.row - 1, forComponent: index.column) ?? "")
+//                self.currentlySelectedIndex = index
+//                self.currentlySelected      = self.delegate?.pickAndChoose(self, titleForRow: index.row - 1, forComponent: index.column) ?? ""
             }
         }
 

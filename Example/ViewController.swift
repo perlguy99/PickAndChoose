@@ -10,7 +10,7 @@ import UIKit
 import PickAndChoose
 
 class ViewController: UIViewController, PickAndChooseDataSource, PickAndChooseDelegate {
-    var pickAndChooseData: PickAndChooseData2? = ["Emergency2", "Complaint2", "Appointment2", "Information2"]
+    var pickAndChooseData: PickAndChooseData? = ["Emergency2", "Complaint2", "Appointment2", "Information2"]
     
     // PickAndChooseDataSource
     func numberOfComponents(in picker: PickAndChoose) -> Int {
@@ -27,15 +27,13 @@ class ViewController: UIViewController, PickAndChooseDataSource, PickAndChooseDe
     
     func pickAndChoose(_ picker: PickAndChoose, addItemToDataSource item: String) {
         pickAndChooseData?.append(item)
-        
-        picker.currentlySelected = item
-        
+        picker.setSelectedValue(to: item)
         
         print("\nADD ITEM \(item) TO THE DATA SOURCE\n")
     }
     
     // PickAndChooseDelegate
-    func pickAndChoose(_ picker: PickAndChoose, titleForRow row: Int, forCompinent component: Int) -> String? {
+    func pickAndChoose(_ picker: PickAndChoose, titleForRow row: Int, forComponent component: Int) -> String? {
         return pickAndChooseData?.item(at: row)
 //        return pickAndChooseData?[component].item(at: row)
     }
